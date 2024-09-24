@@ -1,0 +1,32 @@
+body {
+	animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    }
+    50% {
+        background: linear-gradient(45deg, #fad0c4, #fcb69f);
+    }
+    100% {
+        background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    }
+	50% {
+        background: linear-gradient(45deg, #fad0c4, #fcb69f);
+    }
+}
+
+#clockContainer {
+	height: 100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#clock{
+	font-size: 3em;
+	font-family: Helvetica;
+	color:whitesmoke;
+
+}
